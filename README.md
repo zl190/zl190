@@ -1,38 +1,34 @@
-# Y.C.Lab3
+# Y.Lab3
 
-**ML/AI Engineer** | Healthcare AI | Developer Tools | Durham, NC
+I build enforcement infrastructure for AI coding agents — hooks that block dangerous operations,
+gates that stop unverified claims from shipping, dashboards that show what's actually happening.
 
-Building intelligent systems at the intersection of machine learning and real-world applications.
+Contributor to [last30days](https://github.com/mvanhorn/last30days-skill) (20K+ stars) —
+HN trending merge approach adopted in v3.
 
-## Current Focus
+## Agent Infrastructure
 
-- **AI-Powered Dev Tools** - Creating Claude Code skills and LLM integrations
-- **Healthcare AI** - Medical imaging, diagnostic algorithms, ECG digitization
-- **Probabilistic ML** - Bayesian inference and uncertainty quantification
+| Tool | What it does | Tests |
+|------|-------------|-------|
+| [noglaze](https://github.com/zl190/noglaze) | Output quality audit — blocks AI from shipping unverified claims | 25/25 |
+| [agent-cockpit](https://github.com/zl190/agent-cockpit) | Terminal dashboard for real-time agent behavior monitoring | 142/142 |
+| [pipeline-ops](https://github.com/zl190/pipeline-ops) | Operator pattern for AI pipelines — 177 lines, zero deps, statistically validated | 43/43 |
+| [claude-code-harness](https://github.com/zl190/claude-code-harness) | Hook framework that blocks secret leaks in Claude Code | 24/24 |
 
-## Featured Projects
+## Research
 
-| Project | Description |
-|---------|-------------|
-| [md-slides](https://github.com/zl190/md-slides) | Claude Code skill for Markdown → Slides conversion |
-| [blog](https://github.com/zl190/blog) | Personal tech blog on AI and development |
-| [Bayesian-Simulator](https://github.com/zl190/Bayesian-Simulator) | Interactive Bayesian inference simulator |
-| [sisr_medical](https://github.com/zl190/sisr_medical) | Super-resolution for medical ultrasound & radiology |
+| Project | What it is |
+|---------|-----------|
+| [nano-agent-anatomy](https://github.com/zl190/nano-agent-anatomy) | Reverse-engineering production agent architecture — 4 layers, 95 tests |
+| [sts-audit](https://github.com/zl190/sts-audit) | Empirical study: can architectural specs make AI code quality auditable? 7 models, 3 providers |
 
-## Tech Stack
+## Other
 
-**Languages:** Python, TypeScript, SQL  
-**ML/AI:** PyTorch, TensorFlow, scikit-learn, LangChain  
-**Tools:** Docker, Git, VS Code, Claude Code
+- **Healthcare AI** — medical imaging super-resolution, ECG digitization
+- **[Blog](https://zl190.github.io/blog)** — writing about AI agent patterns and enforcement
 
-## Stats
+## Quick Start
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=zl190&show_icons=true&theme=default&hide_title=true&hide_border=true)
+Each tool has its own install instructions. Start with [noglaze](https://github.com/zl190/noglaze) — one command setup.
 
-## Connect
-
-- Blog: [zl190.github.io/blog](https://zl190.github.io/blog)
-
----
-
-*Arctic Code Vault Contributor*
+Durham, NC
