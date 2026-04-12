@@ -1,34 +1,27 @@
-# Y.Lab3
+# AI Engineer → Agent Reliability
 
-I build enforcement infrastructure for AI coding agents — hooks that block dangerous operations,
-gates that stop unverified claims from shipping, dashboards that show what's actually happening.
+Building infrastructure that makes AI agents trustworthy — enforcement hooks, quality gates, empirical ablation studies. Tested across 60,000+ agent interactions.
 
-Contributor to [last30days](https://github.com/mvanhorn/last30days-skill) (20K+ stars) —
-HN trending merge approach adopted in v3.
+High-stakes ML background (FDA 510(k)).
 
-## Agent Infrastructure
+## What I Build
 
-| Tool | What it does | Tests |
-|------|-------------|-------|
-| [noglaze](https://github.com/zl190/noglaze) | Output quality audit — blocks AI from shipping unverified claims | 25/25 |
-| [agent-cockpit](https://github.com/zl190/agent-cockpit) | Terminal dashboard for real-time agent behavior monitoring | 142/142 |
-| [pipeline-ops](https://github.com/zl190/pipeline-ops) | Operator pattern for AI pipelines — 177 lines, zero deps, statistically validated | 43/43 |
-| [claude-code-harness](https://github.com/zl190/claude-code-harness) | Hook framework that blocks secret leaks in Claude Code | 24/24 |
+| Project | What it does | Evidence |
+|---------|-------------|----------|
+| [claude-code-harness](https://github.com/zl190/claude-code-harness) | Hook framework that enforces agent behavior at lifecycle points | 60K+ hook-fires, [ablation study](https://zl190.github.io/blog/do-hooks-actually-change-model-behavior) (83% divergence) |
+| [noglaze](https://github.com/zl190/noglaze) | Output quality audit — blocks agents from shipping unverified claims | 25/25 tests |
+| [agent-cockpit](https://github.com/zl190/agent-cockpit) | Real-time agent behavior monitoring dashboard | 142/142 tests |
+| [pipeline-ops](https://github.com/zl190/pipeline-ops) | Operator pattern for AI pipelines — 177 lines, zero deps | 43/43 tests |
 
 ## Research
 
 | Project | What it is |
 |---------|-----------|
 | [nano-agent-anatomy](https://github.com/zl190/nano-agent-anatomy) | Reverse-engineering production agent architecture — 4 layers, 95 tests |
-| [sts-audit](https://github.com/zl190/sts-audit) | Empirical study: can architectural specs make AI code quality auditable? 7 models, 3 providers |
+| [sts-audit](https://github.com/zl190/sts-audit) | Empirical study: can architectural specs make AI code quality auditable? |
 
-## Other
+## Writing
 
-- **Healthcare AI** — medical imaging super-resolution, ECG digitization
-- **[Blog](https://zl190.github.io/blog)** — writing about AI agent patterns and enforcement
+[Blog](https://zl190.github.io/blog) — agent reliability patterns, enforcement hooks, empirical findings.
 
-## Quick Start
-
-Each tool has its own install instructions. Start with [noglaze](https://github.com/zl190/noglaze) — one command setup.
-
-Durham, NC
+Contributor to [last30days](https://github.com/mvanhorn/last30days-skill) (20K+ stars).
