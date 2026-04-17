@@ -4,5 +4,5 @@ Building infrastructure that makes AI agents trustworthy — enforcement hooks, 
 
 High-stakes ML background (FDA 510(k)).
 
-Contributor to [last30days](https://github.com/mvanhorn/last30days-skill) ![GitHub stars](https://img.shields.io/github/stars/mvanhorn/last30days-skill?style=flat&label=stars).
+Contributor to [last30days-skill](https://github.com/mvanhorn/last30days-skill) ![GitHub stars](https://img.shields.io/github/stars/mvanhorn/last30days-skill?style=flat&label=stars).
 
