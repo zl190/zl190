@@ -4,6 +4,8 @@ Building infrastructure that makes AI agents trustworthy — enforcement hooks, 
 
 High-stakes ML background (FDA 510(k)).
 
+Contributor to [last30days](https://github.com/mvanhorn/last30days-skill) ![GitHub stars](https://img.shields.io/github/stars/mvanhorn/last30days-skill?style=flat&label=stars).
+
 ## What I Build
 
 | Project | What it does | Evidence |
@@ -22,6 +24,4 @@ High-stakes ML background (FDA 510(k)).
 
 ## Writing
 
-[Blog](https://zl190.github.io/blog) — agent reliability patterns, enforcement hooks, empirical findings.
-
-Contributor to [last30days](https://github.com/mvanhorn/last30days-skill) (20K+ stars).
+[Blog](https://blog.ylab3.com) — what I learn from building AI agents and trying to make them reliable.
