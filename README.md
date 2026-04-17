@@ -6,4 +6,3 @@ High-stakes ML background (FDA 510(k)).
 
 Contributor to [last30days](https://github.com/mvanhorn/last30days-skill) ![GitHub stars](https://img.shields.io/github/stars/mvanhorn/last30days-skill?style=flat&label=stars).
 
-[Blog](https://blog.ylab3.com) — what I learn from building AI agents and trying to make them reliable.
